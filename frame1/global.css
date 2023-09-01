@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-dangrek: Dangrek;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-49xl: 68px;
+  --font-size-mid: 17px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: #252525;
+  --color-white: #fff;
+  --color-gold: #ffd600;
+  --color-dimgray: #656565;
+
+  /* border radiuses */
+  --br-smi: 13px;
+  --br-4xs: 9px;
+}

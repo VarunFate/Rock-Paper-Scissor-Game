@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-2xl: 21px;
+  --font-size-49xl: 68px;
+  --font-size-mid: 17px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: rgba(217, 217, 217, 0);
+  --color-gray: #252525;
+  --color-dimgray-100: #656565;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-4xs: 9px;
+}

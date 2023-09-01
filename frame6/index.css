@@ -1,0 +1,258 @@
+.frame-child {
+  position: absolute;
+  top: 360px;
+  left: 792px;
+  border-radius: 50%;
+  background-color: #3b6720;
+  width: 250px;
+  height: 250px;
+}
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 335px;
+  left: 767px;
+  border-radius: 50%;
+  background-color: rgba(29, 168, 43, 0.79);
+  width: 300px;
+  height: 300px;
+}
+.frame-inner {
+  top: 310px;
+  left: 745px;
+  background-color: rgba(46, 154, 37, 0.39);
+  box-shadow: 0 1px 62px rgba(0, 0, 0, 0.13);
+  width: 350px;
+  height: 350px;
+}
+.frame-child1,
+.group-icon {
+  position: absolute;
+  top: 389px;
+  left: 295px;
+  width: 194px;
+  height: 194px;
+}
+.frame-child1 {
+  left: 819px;
+}
+.icons8-hand-64-1 {
+  position: absolute;
+  top: 442px;
+  left: 350px;
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+}
+.pc-picked,
+.you-picked {
+  position: absolute;
+  top: 344px;
+  left: 333px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  width: 113px;
+  height: 16px;
+}
+.pc-picked {
+  left: 867px;
+  width: 100px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 547px;
+  left: 570px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  width: 174px;
+  height: 44px;
+}
+.against-pc,
+.play-again,
+.you-lost {
+  position: absolute;
+  letter-spacing: 0.1em;
+  display: inline-block;
+}
+.play-again {
+  top: 561px;
+  left: 609px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6b6b6b;
+  width: 99px;
+  height: 14px;
+}
+.against-pc,
+.you-lost {
+  top: 454px;
+  left: 550px;
+  font-size: 39px;
+  font-weight: 800;
+  text-align: center;
+  width: 209px;
+  height: 36px;
+}
+.against-pc {
+  top: 501px;
+  left: 573px;
+  font-size: 25px;
+  width: 168px;
+  height: 31px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 60px;
+  left: 238px;
+  border-radius: 13px;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 804px;
+  height: 162px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 77px;
+  left: 881px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  width: 139px;
+  height: 128px;
+}
+.paper,
+.rock {
+  position: absolute;
+  left: 258px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  height: 37px;
+}
+.rock {
+  top: 78px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  width: 135px;
+}
+.paper {
+  top: 120px;
+  width: 150px;
+}
+.paper,
+.scissors,
+.your {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.scissors {
+  position: absolute;
+  top: 163px;
+  left: 259px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 235px;
+  height: 37px;
+}
+.your {
+  top: 84px;
+  left: 926px;
+  color: var(--color-dimgray-100);
+  width: 50px;
+  height: 16px;
+}
+.b,
+.score,
+.your {
+  position: absolute;
+  display: inline-block;
+}
+.score {
+  top: 106px;
+  left: 920px;
+  letter-spacing: 0.1em;
+  color: var(--color-dimgray-100);
+  width: 61px;
+  height: 16px;
+}
+.b {
+  top: 128px;
+  left: 910px;
+  font-size: var(--font-size-49xl);
+  color: var(--color-gray);
+  text-align: center;
+  width: 79px;
+  height: 63px;
+}
+.frame-child4 {
+  position: absolute;
+  top: 77px;
+  left: 713px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  width: 139px;
+  height: 128px;
+}
+.computer {
+  position: absolute;
+  top: 84px;
+  left: 730px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--color-dimgray-100);
+}
+.b1,
+.score1 {
+  position: absolute;
+  display: inline-block;
+}
+.score1 {
+  top: 106px;
+  left: 752px;
+  letter-spacing: 0.1em;
+  color: var(--color-dimgray-100);
+  width: 61px;
+  height: 16px;
+}
+.b1 {
+  top: 128px;
+  left: 742px;
+  font-size: var(--font-size-49xl);
+  color: var(--color-gray);
+  text-align: center;
+  width: 79px;
+  height: 63px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 675px;
+  left: 1136px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 119px;
+  height: 40px;
+}
+.rules {
+  position: absolute;
+  top: 683px;
+  left: 1160px;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 20px;
+}
+.ellipse-parent {
+  position: relative;
+  background-color: #89c15e;
+  width: 100%;
+  height: 738px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

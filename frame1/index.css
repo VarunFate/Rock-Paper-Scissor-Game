@@ -1,0 +1,322 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+}
+.frame-child {
+  top: 60px;
+  left: 238px;
+  border-radius: var(--br-smi);
+  width: 804px;
+  height: 162px;
+}
+.frame-item {
+  top: 675px;
+  left: 1136px;
+  border-radius: 10px;
+  width: 119px;
+  height: 40px;
+}
+.rules {
+  position: absolute;
+  top: 683px;
+  left: 1160px;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 20px;
+}
+.frame-inner {
+  position: absolute;
+  top: 77px;
+  left: 881px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  width: 139px;
+  height: 128px;
+}
+.paper,
+.rock {
+  position: absolute;
+  left: 258px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  height: 37px;
+}
+.rock {
+  top: 78px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  width: 135px;
+}
+.paper {
+  top: 120px;
+  width: 150px;
+}
+.paper,
+.scissors,
+.your {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.scissors {
+  position: absolute;
+  top: 163px;
+  left: 259px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 235px;
+  height: 37px;
+}
+.your {
+  top: 84px;
+  left: 926px;
+  color: var(--color-dimgray);
+  width: 50px;
+  height: 16px;
+}
+.b,
+.score,
+.your {
+  position: absolute;
+  display: inline-block;
+}
+.score {
+  top: 106px;
+  left: 920px;
+  letter-spacing: 0.1em;
+  color: var(--color-dimgray);
+  width: 61px;
+  height: 16px;
+}
+.b {
+  top: 128px;
+  left: 910px;
+  font-size: var(--font-size-49xl);
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 79px;
+  height: 63px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 77px;
+  left: 713px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  width: 139px;
+  height: 128px;
+}
+.computer,
+.score1 {
+  letter-spacing: 0.1em;
+  color: var(--color-dimgray);
+}
+.computer {
+  position: absolute;
+  top: 84px;
+  left: 730px;
+  font-weight: 600;
+}
+.score1 {
+  top: 106px;
+  left: 752px;
+  width: 61px;
+  height: 16px;
+}
+.b1,
+.game-rules,
+.score1 {
+  position: absolute;
+  display: inline-block;
+}
+.b1 {
+  top: 128px;
+  left: 742px;
+  font-size: var(--font-size-49xl);
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 79px;
+  height: 63px;
+}
+.game-rules {
+  top: 25px;
+  left: 61px;
+  font-size: 29px;
+  font-weight: 500;
+  width: 156px;
+  height: 27px;
+}
+.frame-child1,
+.frame-child2 {
+  position: absolute;
+  top: 92px;
+  left: 27px;
+  background-color: var(--color-gold);
+  width: 8px;
+  height: 8px;
+}
+.frame-child2 {
+  top: 138px;
+}
+.agree-ahead-of,
+.rock-beats-scissors {
+  position: absolute;
+  top: 80px;
+  left: 46px;
+  display: inline-block;
+  width: 211px;
+  height: 27px;
+}
+.agree-ahead-of {
+  top: 125px;
+  width: 216px;
+  height: 43px;
+}
+.frame-child3,
+.frame-child4 {
+  position: absolute;
+  top: 198px;
+  left: 27px;
+  background-color: var(--color-gold);
+  width: 8px;
+  height: 8px;
+}
+.frame-child4 {
+  top: 257px;
+}
+.if-both-players,
+.use-rock-paper {
+  position: absolute;
+  top: 186px;
+  left: 46px;
+  display: inline-block;
+  width: 211px;
+  height: 27px;
+}
+.if-both-players {
+  top: 244px;
+  width: 216px;
+  height: 48px;
+}
+.game-rules-parent {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: #004429;
+  border: 7px solid var(--color-white);
+  box-sizing: border-box;
+  width: 278px;
+  height: 325px;
+  overflow: hidden;
+}
+.group-child,
+.x {
+  position: absolute;
+}
+.group-child {
+  top: 7px;
+  left: 248px;
+  border-radius: 50%;
+  background-color: red;
+  border: 5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+}
+.x {
+  top: 0;
+  left: 266px;
+  font-size: 44px;
+  font-family: var(--font-dangrek);
+  display: inline-block;
+  width: 24px;
+  height: 53px;
+}
+.frame-parent {
+  position: absolute;
+  top: 288px;
+  left: 964px;
+  width: 303px;
+  height: 367px;
+  font-size: var(--font-size-smi);
+}
+.line-icon {
+  position: absolute;
+  top: 440px;
+  left: 686px;
+  width: 66.95px;
+  height: 100.95px;
+}
+.frame-child5,
+.line-div {
+  position: absolute;
+  top: 439.63px;
+  left: 547px;
+  width: 66.07px;
+  height: 101.37px;
+}
+.line-div {
+  top: 385.5px;
+  left: 574.5px;
+  border-top: 15px solid rgba(0, 0, 0, 0.64);
+  box-sizing: border-box;
+  width: 148px;
+  height: 15px;
+}
+.frame-child6,
+.frame-child7,
+.group-icon {
+  position: absolute;
+  top: 507px;
+  left: 567px;
+  width: 164px;
+  height: 164px;
+}
+.frame-child6,
+.frame-child7 {
+  top: 303px;
+  left: 449px;
+}
+.frame-child7 {
+  left: 685px;
+}
+.icon,
+.icons8-fist-67-1,
+.icons8-hand-64-1 {
+  position: absolute;
+  top: 351px;
+  left: 492px;
+  width: 80px;
+  height: 58.51px;
+  object-fit: cover;
+}
+.icon,
+.icons8-hand-64-1 {
+  top: 552px;
+  left: 614px;
+  width: 72px;
+  height: 72px;
+}
+.icon {
+  top: 352px;
+  left: 747px;
+  width: 41.76px;
+  height: 56.68px;
+}
+.rectangle-parent {
+  position: relative;
+  background-color: #8cc461;
+  width: 100%;
+  height: 738px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

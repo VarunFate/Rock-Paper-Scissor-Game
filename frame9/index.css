@@ -1,0 +1,93 @@
+.vector-icon {
+  position: absolute;
+  height: 27.24%;
+  width: 15.66%;
+  top: 25.61%;
+  right: 40.83%;
+  bottom: 47.15%;
+  left: 43.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child {
+  position: absolute;
+  top: 86px;
+  left: 388px;
+  width: 504px;
+  height: 297px;
+}
+.hurray,
+.you-won-the {
+  position: absolute;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+.hurray {
+  top: 422px;
+  left: 436px;
+  display: inline-block;
+  width: 464px;
+  height: 86px;
+}
+.you-won-the {
+  top: 533px;
+  left: 442px;
+  font-size: 41px;
+}
+.frame-item {
+  position: absolute;
+  top: 639px;
+  left: 581px;
+  border-radius: 9px;
+  background-color: var(--color-white);
+  width: 174px;
+  height: 44px;
+}
+.play-again {
+  position: absolute;
+  top: 653px;
+  left: 620px;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: #6b6b6b;
+  text-align: left;
+  display: inline-block;
+  width: 99px;
+  height: 14px;
+}
+.frame-inner {
+  position: absolute;
+  top: 675px;
+  left: 1136px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 119px;
+  height: 40px;
+}
+.rules {
+  position: absolute;
+  top: 683px;
+  left: 1160px;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  width: 72px;
+  height: 20px;
+}
+.vector-parent {
+  position: relative;
+  background-color: #89c15e;
+  width: 100%;
+  height: 738px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 91px;
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
